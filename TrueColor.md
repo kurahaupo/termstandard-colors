@@ -24,6 +24,7 @@ Here's a test case:
 ```
 printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
 ```
+* or https://raw.githubusercontent.com/JohnMorales/dotfiles/master/colors/24-bit-color.sh
 * or http://github.com/robertknight/konsole/tree/master/tests/color-spaces.pl
 * or https://git.gnome.org/browse/vte/tree/perf/img.sh?h=vte-0-36
 
