@@ -10,6 +10,11 @@ It's a common confusion about terminal colours... Actually we have this:
 printf "\x1b[${bg};2;${red};${green};${blue}m\n"
 ```
 
+***xterm default*** 256 vga colors
+
+![256 vga colors]
+(http://misc.flogisoft.com/_media/bash/colors_format/256-colors.sh.png)
+
 The 256 colour palete is configured at start, and it's a 666 cube of
 colours, each of them defined as a 24bit (888 rgb) colour.
 
