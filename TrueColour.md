@@ -17,7 +17,7 @@ This means that current support can only display 256 different colours
 in the terminal, while truecolour means that you can display 16 milion
 different colours at the same time.
 
-Truecolour escape codes doesnt uses a colour palete. It just specifies the
+Truecolour escape codes doesn't use a colour palette. They just specify the
 colour itself.
 
 Here's a test case:
