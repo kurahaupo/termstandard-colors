@@ -96,13 +96,17 @@ Now **supporting** truecolour
     * **libvte**-based [tinyterm](https://code.google.com/p/tinyterm)
     * **libvte**-based [Pantheon Terminal](https://launchpad.net/pantheon-terminal)
     * **libvte**-based [lxterminal](http://sourceforge.net/projects/lxde) - with **--enable-gtk3** configure flag.
-    * **libvte**-based [mlterm](http://mlterm.sourceforge.net) - with **--with-gtk=3.0** configure flag
 
 But there are bunch of libvte-based terminals for GTK2 so they are listed in the another section.
 
 Also, while this one is not exactly a terminal, but a terminal replayer, it still worth mentioning:
 
   * [asciinema](http://asciinema.org) player: https://github.com/asciinema/asciinema-player
+
+Improper support for true colors
+--------------------------------
+
+* [mlterm](http://mlterm.sourceforge.net) - build with **--with-gtk=3.0** configure flag - approximates colors to 512 embedded palette https://sourceforge.net/p/mlterm/bugs/74/
 
 Parsing ANSI colour sequences, but approximating them to 256 palette
 -------------------------------------------------------------------
