@@ -26,7 +26,7 @@ printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
 ```
 * or https://raw.githubusercontent.com/JohnMorales/dotfiles/master/colors/24-bit-color.sh
 * or http://github.com/robertknight/konsole/tree/master/tests/color-spaces.pl
-* or https://git.gnome.org/browse/vte/tree/perf/img.sh?h=vte-0-36
+* or https://git.gnome.org/browse/vte/tree/perf/img.sh
 * or just run this:
 ```sh
 awk 'BEGIN{
@@ -73,6 +73,7 @@ Now **supporting** truecolour
 * [alacritty](https://github.com/jwilm/alacritty) [delimeter: semicolon] - written in Rust
 * [kitty](https://github.com/kovidgoyal/kitty) [delimeter: semicolon] - uses OpenGL
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
+* [Termux](https://termux.com/) [delimeter: semicolon] - **Android platform**
 * [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based
 * [Hyper.app](https://hyper.is/) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based (Electron)
 * [Tera Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon] - **Windows platform**
@@ -132,12 +133,16 @@ Terminal multiplexers
 ----------------------------
 
 * [Terminology](https://www.enlightenment.org/about-terminology) (Enlightenment) - https://phab.enlightenment.org/T746
+* [mosh](https://mosh.org/) (Mobile SHell) - https://github.com/mobile-shell/mosh/issues/649
 * [mrxvt](https://sourceforge.net/projects/materm) (looks abandoned) - https://sourceforge.net/p/materm/feature-requests/41/
 * [aterm](http://www.afterstep.org/aterm.php) (looks abandoned) - https://sourceforge.net/p/aterm/feature-requests/23/
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
 * [yaft](https://github.com/uobikiemukot/yaft) framebuffer terminal - https://github.com/uobikiemukot/yaft/issues/12
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [3] {xterm-like approximation to 256 colors} and [4] {real true colors} available) - **Windows platform**
+* [ConnectBot](https://connectbot.org/) - https://github.com/connectbot/connectbot/pull/531 - **Android platform**
+* [JuiceSSH](https://juicessh.com/) - **Adroid platform**, closed source
+* [Termius](https://www.termius.com/) - **Linux, Windows, OS X platforms**, closed source
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) (looks abandoned) - https://github.com/stjerm/stjerm/issues/39
