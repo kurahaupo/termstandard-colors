@@ -156,6 +156,7 @@ Here are another console programs discussions:
 
 Supporting True Colour:
 
+* [Eternal Terminal](https://mistertea.github.io/EternalTCP/) - automatically reconnecting shell
 * [mc](http://www.midnight-commander.org) - since [682a5...](http://www.midnight-commander.org/changeset/682a5116edd20b8ba81743a1f7495c883b0ce644). See also [ticket #3724](http://www.midnight-commander.org/ticket/3724) for truecolor themes.
 * [irssi](https://github.com/irssi/irssi) - since [PR #48](https://github.com/irssi/irssi/pull/48)
 * [neovim](https://github.com/neovim/neovim) - since commit [8dd415e887923f99ab5daaeba9f0303e173dd1aa](https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa);  need to set [termguicolors](https://neovim.io/doc/user/options.html#%27termguicolors) to enable true color.
@@ -165,6 +166,7 @@ Supporting True Colour:
 * [s-lang](http://lists.jedsoft.org/lists/slang-users/2015/0000020.html) library -  (since pre2.3.1-35, for 64bit systems)
 * [timg](https://github.com/hzeller/timg) - Terminal Image Viewer
 * [tv](https://github.com/daleroberts/tv) - tool to quickly view high-resolution multi-band imagery directly in terminal
+* [termimage](https://github.com/nabijaczleweli/termimage) - terminal image viewer
 * [mpv](https://github.com/mpv-player/mpv) - video player with support of console-only output (since https://github.com/mpv-player/mpv/commit/dd02369c3223fda5bcb2658b15404d43232bb38f)
 * [radare2](https://github.com/radare/radare2) - reverse engineering franework; since [be46b9...](https://github.com/radare/radare2/commit/be46b9da31c7d2b6ac30ea3c62a32016f9482177) commit.
 
