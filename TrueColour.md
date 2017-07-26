@@ -167,6 +167,8 @@ Supporting True Colour:
 * [timg](https://github.com/hzeller/timg) - Terminal Image Viewer
 * [tv](https://github.com/daleroberts/tv) - tool to quickly view high-resolution multi-band imagery directly in terminal
 * [termimage](https://github.com/nabijaczleweli/termimage) - terminal image viewer
+* [explosion](https://github.com/Tenzer/explosion) - terminal image viewer
+* [ls-icons](https://github.com/sebastiencs/ls-icons) - fork of coreutils with `ls` program that supports icons
 * [mpv](https://github.com/mpv-player/mpv) - video player with support of console-only output (since https://github.com/mpv-player/mpv/commit/dd02369c3223fda5bcb2658b15404d43232bb38f)
 * [radare2](https://github.com/radare/radare2) - reverse engineering franework; since [be46b9...](https://github.com/radare/radare2/commit/be46b9da31c7d2b6ac30ea3c62a32016f9482177) commit.
 
