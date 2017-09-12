@@ -114,7 +114,7 @@ Parsing ANSI colour sequences, but approximating them to 256 palette
 -------------------------------------------------------------------
 
 * xterm (though doing it wrong: "it uses nearest colour in RGB colour space, with a usualfalse assumption about orthogonal axes")
-* [urxvt aka rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) -  since [Revision 1.570](http://cvs.schmorp.de/rxvt-unicode/src/command.C?revision=1.570&view=markup&sortby=log&sortdir=down) http://lists.schmorp.de/pipermail/rxvt-unicode/2016q2/002261.html
+* [urxvt aka rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) -  since [Revision 1.570](http://cvs.schmorp.de/rxvt-unicode/src/command.C?revision=1.570&view=markup&sortby=log&sortdir=down) http://lists.schmorp.de/pipermail/rxvt-unicode/2016q2/002261.html (Note there is a restriction of colors count at once still)
 * linux console (since v3.16): https://github.com/torvalds/linux/commit/cec5b2a97a11ade56a701e83044d0a2a984c67b4
 
 
