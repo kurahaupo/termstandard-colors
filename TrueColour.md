@@ -150,7 +150,7 @@ Terminal multiplexers
 
 [3] You can download patched version here https://github.com/rdebath/PuTTY
 
-[4] You can download patched version here https://github.com/halcy/PuTTY
+[4] You can download patched version here https://github.com/chrisbra/putty/commits/truecolor (based on the patches from  https://github.com/halcy/PuTTY )
 
 Here are another console programs discussions:
 ============================================
