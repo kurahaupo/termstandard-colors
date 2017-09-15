@@ -141,9 +141,14 @@ Terminal multiplexers
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
 * [yaft](https://github.com/uobikiemukot/yaft) framebuffer terminal - https://github.com/uobikiemukot/yaft/issues/12
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [3] {xterm-like approximation to 256 colors} and [4] {real true colors} available) - **Windows platform**
+* [KiTTY](http://www.9bis.net/kitty/) - **Windows platform**
+* [MTPuTTY](ttyplus.com) - **Windows platform** 
+* [mRemoteNG](https://mremoteng.org/) - **Windows platform** - https://github.com/mRemoteNG/mRemoteNG/issues/717
 * [ConnectBot](https://connectbot.org/) - https://github.com/connectbot/connectbot/pull/531 - **Android platform**
 * [JuiceSSH](https://juicessh.com/) - **Adroid platform**, closed source
 * [Termius](https://www.termius.com/) - **Linux, Windows, OS X platforms**, closed source
+* [Netsarang XShell](https://www.netsarang.com/products/xsh_overview.html) - closed source (sent them an email)
+* [MobaXterm](http://mobaxterm.mobatek.net/) **Windows platform** - closed source (sent them an email)
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) (looks abandoned) - https://github.com/stjerm/stjerm/issues/39
