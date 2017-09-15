@@ -147,6 +147,7 @@ Terminal multiplexers
 * [ConnectBot](https://connectbot.org/) - https://github.com/connectbot/connectbot/pull/531 - **Android platform**
 * [JuiceSSH](https://juicessh.com/) - **Adroid platform**, closed source
 * [Termius](https://www.termius.com/) - **Linux, Windows, OS X platforms**, closed source
+* [SmarTTY](http://smartty.sysprogs.com/) - **Windows platform** - closed source (sent them a request)
 * [Netsarang XShell](https://www.netsarang.com/products/xsh_overview.html) - closed source (sent them an email)
 * [MobaXterm](http://mobaxterm.mobatek.net/) **Windows platform** - closed source (sent them an email)
 * libvte and GTK2 - based:
