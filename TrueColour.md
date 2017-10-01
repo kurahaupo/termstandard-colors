@@ -170,6 +170,7 @@ Supporting True Colour:
 * [vim](https://github.com/vim/vim) - (from 7.4.1770) since commit [8a633e3427b47286869aa4b96f2bfc1fe65b25cd](https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd); need to set [termguicolors](https://github.com/vim/vim/blob/master/runtime/doc/version8.txt#L202) to enable true color.
 * [joe](https://sf.net/p/joe-editor) - (from [4.5](https://sourceforge.net/p/joe-editor/news/2017/09/joe-45-released/) version)
 * [emacs](https://www.gnu.org/software/emacs/) - since commit [e463e57...](http://git.savannah.gnu.org/cgit/emacs.git/commit/?id=e463e57), require custom terminfo
+* [micro editor](https://micro-editor.github.io/)
 * [elinks](http://repo.or.cz/w/elinks.git) - [configure.in:1410](http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410) (./configure --enable-true-color)
 * [s-lang](http://lists.jedsoft.org/lists/slang-users/2015/0000020.html) library -  (since pre2.3.1-35, for 64bit systems)
 * [timg](https://github.com/hzeller/timg) - Terminal Image Viewer
