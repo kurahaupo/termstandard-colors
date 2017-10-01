@@ -77,11 +77,13 @@ Now **supporting** truecolour
 * [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based
 * [Hyper.app](https://hyper.is/) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based (Electron)
 * [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) - HTML/CSS/JS-based (ChromeOS)
+* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) - [landed](https://git.tartarus.org/?p=simon/putty.git;a=commit;h=a4cbd3dfdb71d258e83bbf5b03a874c06d0b3106) in git (patched version [3] {xterm-like approximation to 256 colors} and [4] {real true colors} available) - **Windows platform**
 * [Tera Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon] - **Windows platform**
 * [ConEmu](https://github.com/Maximus5/ConEmu) [delimeter: semicolon] - **Windows platform**
 * [FinalTerm](http://finalterm.org/) [delimeter: semicolon] - [abandoned](http://worldwidemann.com/finally-terminated/), iTerm2 [borrowing it's ideas and features](http://iterm2.com/shell_integration.html).
 * [MacTerm](https://github.com/kmgrant/macterm) [delimeter: semicolon] - **Mac OS X platform**
 * [mintty](https://mintty.github.io/) [delimeter: semicolon] **Cygwin and MSYS/MSYS2** since commit https://github.com/mintty/mintty/commit/43f0ed8a46c6549cb9a3ea27abc057b5abe13bdb (2.0.1 release) - **Windows platform**
+* [MobaXterm](http://mobaxterm.mobatek.net/) **Windows platform** - closed source (run `lscolors` to see a truecolor test)
 * Windows 10 bash console, since [Windows Insiders build 14931](https://blogs.msdn.microsoft.com/commandline/2016/09/22/24-bit-color-in-the-windows-console/)
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
@@ -140,7 +142,6 @@ Terminal multiplexers
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
 * [yaft](https://github.com/uobikiemukot/yaft) framebuffer terminal - https://github.com/uobikiemukot/yaft/issues/12
-* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [3] {xterm-like approximation to 256 colors} and [4] {real true colors} available) - **Windows platform**
 * [KiTTY](http://www.9bis.net/kitty/) - **Windows platform**
 * [MTPuTTY](ttyplus.com) - **Windows platform** 
 * [mRemoteNG](https://mremoteng.org/) - **Windows platform** - https://github.com/mRemoteNG/mRemoteNG/issues/717
@@ -149,7 +150,6 @@ Terminal multiplexers
 * [Termius](https://www.termius.com/) - **Linux, Windows, OS X platforms**, closed source
 * [SmarTTY](http://smartty.sysprogs.com/) - **Windows platform** - closed source (sent them a request)
 * [Netsarang XShell](https://www.netsarang.com/products/xsh_overview.html) - closed source (sent them an email)
-* [MobaXterm](http://mobaxterm.mobatek.net/) **Windows platform** - closed source (sent them an email)
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) (looks abandoned) - https://github.com/stjerm/stjerm/issues/39
@@ -168,6 +168,7 @@ Supporting True Colour:
 * [irssi](https://github.com/irssi/irssi) - since [PR #48](https://github.com/irssi/irssi/pull/48)
 * [neovim](https://github.com/neovim/neovim) - since commit [8dd415e887923f99ab5daaeba9f0303e173dd1aa](https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa);  need to set [termguicolors](https://neovim.io/doc/user/options.html#%27termguicolors) to enable true color.
 * [vim](https://github.com/vim/vim) - (from 7.4.1770) since commit [8a633e3427b47286869aa4b96f2bfc1fe65b25cd](https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd); need to set [termguicolors](https://github.com/vim/vim/blob/master/runtime/doc/version8.txt#L202) to enable true color.
+* [joe](https://sf.net/p/joe-editor) - (from [4.5](https://sourceforge.net/p/joe-editor/news/2017/09/joe-45-released/) version)
 * [emacs](https://www.gnu.org/software/emacs/) - since commit [e463e57...](http://git.savannah.gnu.org/cgit/emacs.git/commit/?id=e463e57), require custom terminfo
 * [elinks](http://repo.or.cz/w/elinks.git) - [configure.in:1410](http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410) (./configure --enable-true-color)
 * [s-lang](http://lists.jedsoft.org/lists/slang-users/2015/0000020.html) library -  (since pre2.3.1-35, for 64bit systems)
@@ -187,4 +188,4 @@ Not supporting True Colour:
 * termbox library - https://github.com/nsf/termbox/issues/37
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
 * tig - https://github.com/jonas/tig/issues/227
-* joe - https://sourceforge.net/p/joe-editor/patches/116/
+
