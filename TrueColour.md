@@ -71,7 +71,7 @@ Now **supporting** truecolour
 * [iterm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - since v3 version
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
 * [alacritty](https://github.com/jwilm/alacritty) [delimeter: semicolon] - written in Rust
-* [kitty](https://github.com/kovidgoyal/kitty) [delimeter: semicolon] - uses OpenGL
+* [kitty](https://github.com/kovidgoyal/kitty) [delimeter: colon,semicolon] - uses OpenGL
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
 * [Termux](https://termux.com/) [delimeter: semicolon] - **Android platform**
 * [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based
