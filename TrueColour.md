@@ -73,6 +73,7 @@ Now **supporting** truecolour
 * [alacritty](https://github.com/jwilm/alacritty) [delimeter: semicolon] - written in Rust
 * [kitty](https://github.com/kovidgoyal/kitty) [delimeter: colon,semicolon] - uses OpenGL
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
+* [mosh](https://mosh.org/) (Mobile SHell) [delimeter: semicolon] - since commit https://github.com/mobile-shell/mosh/commit/6cfa4aef598146cfbde7f7a4a83438c3769a2835
 * [Termux](https://termux.com/) [delimeter: semicolon] - **Android platform**
 * [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based
 * [Hyper.app](https://hyper.is/) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based (Electron)
@@ -136,7 +137,6 @@ Terminal multiplexers
 ----------------------------
 
 * [Terminology](https://www.enlightenment.org/about-terminology) (Enlightenment) - https://phab.enlightenment.org/T746
-* [mosh](https://mosh.org/) (Mobile SHell) - https://github.com/mobile-shell/mosh/issues/649
 * [mrxvt](https://sourceforge.net/projects/materm) (looks abandoned) - https://sourceforge.net/p/materm/feature-requests/41/
 * [aterm](http://www.afterstep.org/aterm.php) (looks abandoned) - https://sourceforge.net/p/aterm/feature-requests/23/
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
