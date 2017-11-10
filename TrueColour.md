@@ -163,7 +163,7 @@ Supporting True Colour:
 * [mc](http://www.midnight-commander.org) - since [682a5...](http://www.midnight-commander.org/changeset/682a5116edd20b8ba81743a1f7495c883b0ce644). See also [ticket #3724](http://www.midnight-commander.org/ticket/3724) for truecolor themes.
 * [irssi](https://github.com/irssi/irssi) - since [PR #48](https://github.com/irssi/irssi/pull/48)
 * [neovim](https://github.com/neovim/neovim) - since commit [8dd415e887923f99ab5daaeba9f0303e173dd1aa](https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa);  need to set [termguicolors](https://neovim.io/doc/user/options.html#%27termguicolors) to enable true color.
-* [vim](https://github.com/vim/vim) - (from 7.4.1770) since commit [8a633e3427b47286869aa4b96f2bfc1fe65b25cd](https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd); need to set [termguicolors](https://github.com/vim/vim/blob/master/runtime/doc/version8.txt#L202) to enable true color.
+* [vim](https://github.com/vim/vim) - (from 7.4.1770); need to set [termguicolors](https://github.com/vim/vim/blob/master/runtime/doc/version8.txt#L202) to enable true color.
 * [joe](https://sf.net/p/joe-editor) - (from [4.5](https://sourceforge.net/p/joe-editor/news/2017/09/joe-45-released/) version)
 * [emacs](https://www.gnu.org/software/emacs/) - since commit [e463e57...](http://git.savannah.gnu.org/cgit/emacs.git/commit/?id=e463e57), require custom terminfo
 * [micro editor](https://micro-editor.github.io/)
@@ -174,8 +174,8 @@ Supporting True Colour:
 * [termimage](https://github.com/nabijaczleweli/termimage) - terminal image viewer
 * [explosion](https://github.com/Tenzer/explosion) - terminal image viewer
 * [ls-icons](https://github.com/sebastiencs/ls-icons) - fork of coreutils with `ls` program that supports icons
-* [mpv](https://github.com/mpv-player/mpv) - video player with support of console-only output (since https://github.com/mpv-player/mpv/commit/dd02369c3223fda5bcb2658b15404d43232bb38f)
-* [radare2](https://github.com/radare/radare2) - reverse engineering franework; since [be46b9...](https://github.com/radare/radare2/commit/be46b9da31c7d2b6ac30ea3c62a32016f9482177) commit.
+* [mpv](https://github.com/mpv-player/mpv) - video player with support of console-only output (since 0.22 version)
+* [radare2](https://github.com/radare/radare2) - reverse engineering franework; since 0.9.6 version.
 
 Not supporting True Colour:
 
