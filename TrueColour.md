@@ -75,6 +75,7 @@ Now **supporting** truecolour
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
 * [mosh](https://mosh.org/) (Mobile SHell) [delimeter: semicolon] - since commit https://github.com/mobile-shell/mosh/commit/6cfa4aef598146cfbde7f7a4a83438c3769a2835
 * [Termux](https://termux.com/) [delimeter: semicolon] - **Android platform**
+* [ConnectBot](https://connectbot.org/) - **Android platform** - since https://github.com/connectbot/connectbot/commit/3bcc75ccedaf2136b04c5932c81a5155f29dc3b5
 * [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based
 * [Hyper.app](https://hyper.is/) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based (Electron)
 * [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) - HTML/CSS/JS-based (ChromeOS)
@@ -145,7 +146,6 @@ Terminal multiplexers
 * [KiTTY](http://www.9bis.net/kitty/) - **Windows platform**
 * [MTPuTTY](ttyplus.com) - **Windows platform** 
 * [mRemoteNG](https://mremoteng.org/) - **Windows platform** - https://github.com/mRemoteNG/mRemoteNG/issues/717
-* [ConnectBot](https://connectbot.org/) - https://github.com/connectbot/connectbot/pull/531 - **Android platform**
 * [JuiceSSH](https://juicessh.com/) - **Adroid platform**, closed source
 * [Termius](https://www.termius.com/) - **Linux, Windows, OS X platforms**, closed source
 * [SmarTTY](http://smartty.sysprogs.com/) - **Windows platform** - closed source (sent them a request)
