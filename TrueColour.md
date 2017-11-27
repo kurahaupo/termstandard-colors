@@ -169,6 +169,7 @@ Supporting True Colour:
 * [micro editor](https://micro-editor.github.io/)
 * [elinks](http://repo.or.cz/w/elinks.git) - [configure.in:1410](http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410) (./configure --enable-true-color)
 * [s-lang](http://lists.jedsoft.org/lists/slang-users/2015/0000020.html) library -  (since pre2.3.1-35, for 64bit systems)
+* [tcell](github.com/gdamore/tcell) library for Go language
 * [timg](https://github.com/hzeller/timg) - Terminal Image Viewer
 * [tv](https://github.com/daleroberts/tv) - tool to quickly view high-resolution multi-band imagery directly in terminal
 * [termimage](https://github.com/nabijaczleweli/termimage) - terminal image viewer
