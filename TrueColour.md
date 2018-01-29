@@ -50,13 +50,12 @@ According to Wikipedia[1], this is only supported by xterm and konsole.
 
 [1] https://en.wikipedia.org/wiki/ANSI_color
 
-Currently, there is no support for the 24-bit colour descriptions in the terminfo/termcap database and utilites.
-See the discussion thread here: https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
+Since [ncurses-6.0-20180121](http://lists.gnu.org/archive/html/bug-ncurses/2018-01/msg00045.html) terminfo started to support 24-bit truecolor capability under the name of "RGB" - you need to use the "setaf" and "setab" commands to set foreground and background correspondingly.
 
 Detection
 =========
 
-There's no reliable way, and ncurses/terminfo's maintainer expressed he has no intent on introducing support. S-Lang author added a check for $COLORTERM containing either "truecolor" or "24bit" (case sensitive). In turn, [VTE](https://bugzilla.gnome.org/show_bug.cgi?id=754521), [Konsole](https://bugs.kde.org/show_bug.cgi?id=371919) and [iTerm2](https://gitlab.com/gnachman/iterm2/issues/5294) set this variable to "truecolor" (it's been there in VTE for a while, it's relatively new and maybe still git-only in Konsole and iTerm2).
+There's no reliable way until the new release of terminfo/ncurses. After that the "RGB" flag should be available for detection. S-Lang author added a check for $COLORTERM containing either "truecolor" or "24bit" (case sensitive). In turn, [VTE](https://bugzilla.gnome.org/show_bug.cgi?id=754521), [Konsole](https://bugs.kde.org/show_bug.cgi?id=371919) and [iTerm2](https://gitlab.com/gnachman/iterm2/issues/5294) set this variable to "truecolor" (it's been there in VTE for a while, it's relatively new and maybe still git-only in Konsole and iTerm2).
 
 This is obviously not a reliable method, and is not forwarded via sudo, ssh etc. However, whenever it errs, it errs on the safe side: does not advertise support whereas it's actually supported. App developers can freely choose to check for this same variable, or introduce their own method (e.g. an option in their config file), whichever matches better the overall design of the given app. Checking $COLORTERM is recommended though, since that would lead to a more unique desktop experience where the user has to set one variable only and it takes effect across all the apps, rather than something separately for each app.
 
