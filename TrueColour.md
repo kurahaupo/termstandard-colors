@@ -158,6 +158,8 @@ Here are another console programs discussions:
 
 Supporting True Colour:
 
+* [s-lang](http://lists.jedsoft.org/lists/slang-users/2015/0000020.html) library -  (since pre2.3.1-35, for 64bit systems)
+* [ncurses](https://www.gnu.org/software/ncurses/) library - since 6.1 version
 * [Eternal Terminal](https://mistertea.github.io/EternalTCP/) - automatically reconnecting shell
 * [mc](http://www.midnight-commander.org) - since [682a5...](http://www.midnight-commander.org/changeset/682a5116edd20b8ba81743a1f7495c883b0ce644). See also [ticket #3724](http://www.midnight-commander.org/ticket/3724) for truecolor themes.
 * [irssi](https://github.com/irssi/irssi) - since [PR #48](https://github.com/irssi/irssi/pull/48)
@@ -167,7 +169,6 @@ Supporting True Colour:
 * [emacs](https://www.gnu.org/software/emacs/) - since commit [e463e57...](http://git.savannah.gnu.org/cgit/emacs.git/commit/?id=e463e57), require custom terminfo
 * [micro editor](https://micro-editor.github.io/)
 * [elinks](http://repo.or.cz/w/elinks.git) - [configure.in:1410](http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410) (./configure --enable-true-color)
-* [s-lang](http://lists.jedsoft.org/lists/slang-users/2015/0000020.html) library -  (since pre2.3.1-35, for 64bit systems)
 * [tcell](github.com/gdamore/tcell) library for Go language
 * [timg](https://github.com/hzeller/timg) - Terminal Image Viewer
 * [tv](https://github.com/daleroberts/tv) - tool to quickly view high-resolution multi-band imagery directly in terminal
@@ -181,7 +182,6 @@ Not supporting True Colour:
 
 * mutt - http://dev.mutt.org/trac/ticket/3674
 * neomutt - https://github.com/neomutt/neomutt/issues/85
-* ncurses library - https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
 * termbox library - https://github.com/nsf/termbox/issues/37
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
 * tig - https://github.com/jonas/tig/issues/227
