@@ -65,29 +65,29 @@ Here are terminals discussions:
 Now **supporting** truecolour
 ----------------------------
 
-* [st](http://st.suckless.org/) (from suckless) [delimeter: semicolon] -  http://lists.suckless.org/dev/1307/16688.html
-* [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487
-* [iTerm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - since v3 version
-* [Therm](https://github.com/trufae/Therm) [delimeter: colon, semicolon] - fork of iTerm2
-* [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
-* [alacritty](https://github.com/jwilm/alacritty) [delimeter: semicolon] - written in Rust
-* [kitty](https://github.com/kovidgoyal/kitty) [delimeter: colon,semicolon] - uses OpenGL
-* [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
-* [mosh](https://mosh.org/) (Mobile SHell) [delimeter: semicolon] - since commit https://github.com/mobile-shell/mosh/commit/6cfa4aef598146cfbde7f7a4a83438c3769a2835
+* [st](http://st.suckless.org/) (from suckless) [delimeter: semicolon] -  http://lists.suckless.org/dev/1307/16688.html **Linux**
+* [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487 **Linux**
+* [iTerm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - since v3 version **MacOS**
+* [Therm](https://github.com/trufae/Therm) [delimeter: colon, semicolon] - fork of iTerm2 **MacOS**
+* [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78 **Linux**
+* [alacritty](https://github.com/jwilm/alacritty) [delimeter: semicolon] - written in Rust **Linux** **MacOS**
+* [kitty](https://github.com/kovidgoyal/kitty) [delimeter: colon,semicolon] - uses OpenGL **crossplatform, Rust-based**
+* [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon] **Linux** **MacOS**
+* [mosh](https://mosh.org/) (Mobile SHell) [delimeter: semicolon] - since commit https://github.com/mobile-shell/mosh/commit/6cfa4aef598146cfbde7f7a4a83438c3769a2835 **Linux** **MacOS** **Android** **Chrome** **iOS** **Solaris**
 * [pangoterm](http://www.leonerd.org.uk/code/pangoterm/) [delimeter: semicolon] - **abandoned**
-* [Termux](https://termux.com/) [delimeter: semicolon] - **Android platform**
-* [ConnectBot](https://connectbot.org/) - **Android platform** - since https://github.com/connectbot/connectbot/commit/3bcc75ccedaf2136b04c5932c81a5155f29dc3b5
-* [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based
-* [Hyper.app](https://hyper.is/) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based (Electron)
-* [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) - HTML/CSS/JS-based (ChromeOS)
-* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) - [landed](https://git.tartarus.org/?p=simon/putty.git;a=commit;h=a4cbd3dfdb71d258e83bbf5b03a874c06d0b3106) in git (patched version [3] {xterm-like approximation to 256 colors} and [4] {real true colors} available) - **Windows platform**
-* [Tera Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon] - **Windows platform**
-* [ConEmu](https://github.com/Maximus5/ConEmu) [delimeter: semicolon] - **Windows platform**
+* [Termux](https://termux.com/) [delimeter: semicolon] - **Android**
+* [ConnectBot](https://connectbot.org/) - **Android** - since https://github.com/connectbot/connectbot/commit/3bcc75ccedaf2136b04c5932c81a5155f29dc3b5
+* [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - **crossplatform, HTML/CSS/JS-based**
+* [Hyper.app](https://hyper.is/) [delimeter: semicolon] - **crossplatform, HTML/CSS/JS-based (Electron)**
+* [hterm](https://chromium.googlesource.com/apps/libapps/+/master/hterm) - **HTML/CSS/JS-based (ChromeOS**
+* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) - [landed](https://git.tartarus.org/?p=simon/putty.git;a=commit;h=a4cbd3dfdb71d258e83bbf5b03a874c06d0b3106) in git (patched version [3] {xterm-like approximation to 256 colors} and [4] {real true colors} available) - **Windows** **Unix**
+* [Tera Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon] - **Windows**
+* [ConEmu](https://github.com/Maximus5/ConEmu) [delimeter: semicolon] - **Windows**
 * [FinalTerm](http://finalterm.org/) [delimeter: semicolon] - **[abandoned](http://worldwidemann.com/finally-terminated/)**, iTerm2 [borrowing it's ideas and features](http://iterm2.com/shell_integration.html).
-* [MacTerm](https://github.com/kmgrant/macterm) [delimeter: semicolon] - **Mac OS X platform**
-* [mintty](https://mintty.github.io/) [delimeter: semicolon] **Cygwin and MSYS/MSYS2** since commit https://github.com/mintty/mintty/commit/43f0ed8a46c6549cb9a3ea27abc057b5abe13bdb (2.0.1 release) - **Windows platform**
-* [MobaXterm](http://mobaxterm.mobatek.net/) **Windows platform** - closed source (run `lscolors` to see a truecolor test)
-* Windows 10 bash console, since [Windows Insiders build 14931](https://blogs.msdn.microsoft.com/commandline/2016/09/22/24-bit-color-in-the-windows-console/)
+* [MacTerm](https://github.com/kmgrant/macterm) [delimeter: semicolon] - **MacOS**
+* [mintty](https://mintty.github.io/) [delimeter: semicolon] **Cygwin and MSYS/MSYS2** since commit https://github.com/mintty/mintty/commit/43f0ed8a46c6549cb9a3ea27abc057b5abe13bdb (2.0.1 release) - **Windows**
+* [MobaXterm](http://mobaxterm.mobatek.net/) **Windows** - closed source (run `lscolors` to see a truecolor test)
+* Windows 10 bash console, since [Windows Insiders build 14931](https://blogs.msdn.microsoft.com/commandline/2016/09/22/24-bit-color-in-the-windows-console/) **Windows**
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
     * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura)
