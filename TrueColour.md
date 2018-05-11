@@ -187,4 +187,5 @@ Not supporting True Colour:
 * termbox library - https://github.com/nsf/termbox/issues/37
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
 * tig - https://github.com/jonas/tig/issues/227
+* cmus - https://github.com/cmus/cmus/issues/799
 
