@@ -168,7 +168,7 @@ Supporting True Colour:
 * [neovim](https://github.com/neovim/neovim) - since commit [8dd415e887923f99ab5daaeba9f0303e173dd1aa](https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa);  need to set [termguicolors](https://neovim.io/doc/user/options.html#%27termguicolors) to enable true color.
 * [vim](https://github.com/vim/vim) - (from 7.4.1770); need to set [termguicolors](https://github.com/vim/vim/blob/master/runtime/doc/version8.txt#L202) to enable true color.
 * [joe](https://sf.net/p/joe-editor) - (from [4.5](https://sourceforge.net/p/joe-editor/news/2017/09/joe-45-released/) version)
-* [emacs](https://www.gnu.org/software/emacs/) - since commit [e463e57...](http://git.savannah.gnu.org/cgit/emacs.git/commit/?id=e463e57), require custom terminfo
+* [emacs](https://www.gnu.org/software/emacs/) - since [26.1 release](https://lists.gnu.org/archive/html/emacs-devel/2018-05/msg00765.html)
 * [micro editor](https://micro-editor.github.io/)
 * [elinks](http://repo.or.cz/w/elinks.git) - [configure.in:1410](http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410) (./configure --enable-true-color)
 * [tcell](github.com/gdamore/tcell) library for Go language
