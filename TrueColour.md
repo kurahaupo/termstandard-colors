@@ -87,6 +87,7 @@ Now **supporting** truecolour
 * [MacTerm](https://github.com/kmgrant/macterm) [delimeter: semicolon] - **Mac OS X platform**
 * [mintty](https://mintty.github.io/) [delimeter: semicolon] **Cygwin and MSYS/MSYS2** since commit https://github.com/mintty/mintty/commit/43f0ed8a46c6549cb9a3ea27abc057b5abe13bdb (2.0.1 release) - **Windows platform**
 * [MobaXterm](http://mobaxterm.mobatek.net/) **Windows platform** - closed source (run `lscolors` to see a truecolor test)
+* [ZOC](https://www.emtec.com/zoc/index.html) **Windows/OS X platform** - closed source since [7.19.0 version](http://www.emtec.com/downloads/zoc/zoc_changes.txt)
 * Windows 10 bash console, since [Windows Insiders build 14931](https://blogs.msdn.microsoft.com/commandline/2016/09/22/24-bit-color-in-the-windows-console/)
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
