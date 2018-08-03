@@ -189,4 +189,5 @@ Not supporting True Colour:
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
 * tig - https://github.com/jonas/tig/issues/227
 * cmus - https://github.com/cmus/cmus/issues/799
+* [gui.cs](https://github.com/migueldeicaza/gui.cs) Terminal UI toolkit for .NET (curses-like) - https://github.com/migueldeicaza/gui.cs/issues/48
 
