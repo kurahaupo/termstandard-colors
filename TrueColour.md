@@ -66,10 +66,11 @@ Now **supporting** truecolour
 ----------------------------
 
 * [st](http://st.suckless.org/) (from suckless) [delimeter: semicolon] -  http://lists.suckless.org/dev/1307/16688.html
+* [xst](https://github.com/gnotclub/xst/) - fork of st
 * [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487
 * [iTerm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - since v3 version
 * [Therm](https://github.com/trufae/Therm) [delimeter: colon, semicolon] - fork of iTerm2
-* [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
+* [qterminal](https://github.com/lxqt/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
 * [alacritty](https://github.com/jwilm/alacritty) [delimeter: semicolon] - written in Rust
 * [kitty](https://github.com/kovidgoyal/kitty) [delimeter: colon,semicolon] - uses OpenGL
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
