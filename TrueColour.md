@@ -157,8 +157,8 @@ Terminal multiplexers
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) (looks abandoned) - https://github.com/stjerm/stjerm/issues/39
 
-Here are another console programs discussions:
-============================================
+Here are another console programs:
+==================================
 
 Supporting True Colour:
 
