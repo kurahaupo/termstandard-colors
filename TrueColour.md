@@ -83,6 +83,45 @@ lead to a more seamless desktop experience where only one variable needs to be
 set. This would be system-wide so that the user would not need to set it
 separately for each app.
 
+## Querying The Terminal
+
+A more reliable method in an interactive program which can read terminal
+responses, and one that is transparent to things like sudo, SSH, etc.. is to
+simply try setting a truecolor value and then query the terminal to ask what
+color it currently has. If the response replies the same color that was set
+then it indicates truecolor is supported.
+
+```bash
+$ (echo -e '\e[48:2:1:2:3m\eP$qm\e\\'; xxd)
+
+^[P1$r48:2:1:2:3m^[\
+00000000: 1b50 3124 7234 383a 323a 313a 323a 336d  .P1$r48:2:1:2:3m
+```
+
+Here we ask to set the background color to `RGB(1,2,3)` - an unlikely default
+choice - and request the value that we just set. The response comes back that
+the request was understood (`1`), and that the color is indeed `48:2:1:2:3`.
+This tells us also that the terminal supports the colon delimiter. If instead,
+the terminal did not support truecolor we might see a response like
+
+```
+^[P1$r40m^[\
+00000000: 1b50 3124 7234 306d 1b5c 0a              .P1$r40m.\.
+```
+
+This terminal replied the color is `40` - it has not accepted our request to
+set `48:2:1:2:3`.
+
+```
+^[P0$r^[\
+00000000: 1b50 3024 721b 5c0a                      .P0$r.\.
+```
+
+This terminal did not even understand the DECRQSS request - its response was
+`0$r`. We do not learn if it managed to set the color, but since it doesn't
+understand how to reply to our request it is unlikely to support truecolor
+either.
+
 # Terminals + True Color
 
 ## Now **Supporting** True Color
@@ -107,7 +146,7 @@ separately for each app.
 - [mosh](https://mosh.org/) (Mobile SHell) [delimeter: semicolon] - since commit
   https://github.com/mobile-shell/mosh/commit/6cfa4aef598146cfbde7f7a4a83438c3769a2835
 - [pangoterm](http://www.leonerd.org.uk/code/pangoterm/) [delimeter:
-  semicolon] - **abandoned**
+  colon, semicolon]
 - [Termux](https://termux.com/) [delimeter: semicolon] - **Android platform**
 - [ConnectBot](https://connectbot.org/) - **Android platform** - since
   https://github.com/connectbot/connectbot/commit/3bcc75ccedaf2136b04c5932c81a5155f29dc3b5
@@ -123,6 +162,13 @@ separately for each app.
   semicolon] - **Windows platform**
 - [ConEmu](https://github.com/Maximus5/ConEmu) [delimeter: semicolon] -
   **Windows platform**
+- [Windows
+  Powershell](https://en.wikipedia.org/wiki/PowerShell#PowerShell_5.1)
+  [delimeter: semicolon] - aka Powershell 5.x and below **Windows 10**
+- [Powershell Core](https://github.com/PowerShell/PowerShell) [delimeter:
+  semicolon] aka Powershell 6+ **Windows 10**
+- [cmd.exe](https://en.wikipedia.org/wiki/Cmd.exe) [delimeter:
+  semicolon] Builtin Windows shell that is mostly unchanged since DOS **Windows 10**
 - [FinalTerm](http://finalterm.org/) [delimeter: semicolon] -
   **[abandoned](http://worldwidemann.com/finally-terminated/)**, iTerm2
   [borrowing it's ideas and features](http://iterm2.com/shell_integration.html).
@@ -142,7 +188,7 @@ separately for each app.
 - Windows 10 bash console, since
   [Windows Insiders build 14931](https://blogs.msdn.microsoft.com/commandline/2016/09/22/24-bit-color-in-the-windows-console/)
 - all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals
-  (since 0.36 version) [delimeter: colon, semilocon] -
+  (since 0.36 version) [delimeter: colon, semicolon] -
   https://bugzilla.gnome.org/show_bug.cgi?id=704449
   - **libvte**-based
     [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
