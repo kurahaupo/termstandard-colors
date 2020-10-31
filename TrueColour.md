@@ -49,7 +49,7 @@ awk 'BEGIN{
 }'
 ```
 Or
-```
+```sh
 #!/bin/bash
  
 # This program is free software. It comes without any warranty, to
@@ -74,7 +74,7 @@ done
 exit 0
 ```
 Or
-```
+```sh
 #!/bin/bash
  
 # This program is free software. It comes without any warranty, to
