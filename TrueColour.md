@@ -118,9 +118,9 @@ set `48:2:1:2:3`.
 ```
 
 This terminal did not even understand the DECRQSS request - its response was
-`0$r`. We do not learn if it managed to set the color, but since it doesn't
-understand how to reply to our request it is unlikely to support truecolor
-either.
+`ESC P 0 $ r ESC \`. We do not learn if it managed to set the color, but since
+it doesn't understand how to reply to our request it is unlikely to support
+truecolor either.
 
 # Terminals + True Color
 
