@@ -171,7 +171,7 @@ truecolor either.
   semicolon] Built-in Windows shell that is mostly unchanged since DOS **Windows 10**
 - [FinalTerm](http://finalterm.org/) [delimiter: semicolon] -
   **[abandoned](http://worldwidemann.com/finally-terminated/)**, iTerm2
-  [borrowing it's ideas and features](http://iterm2.com/shell_integration.html).
+  [borrowing its ideas and features](http://iterm2.com/shell_integration.html).
 - [MacTerm](https://github.com/kmgrant/macterm) [delimiter: semicolon] - **Mac
   OS X platform**
 - [mintty](https://mintty.github.io/) [delimiter: semicolon] **Cygwin and
