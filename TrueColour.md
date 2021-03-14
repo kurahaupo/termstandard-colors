@@ -49,7 +49,7 @@ awk 'BEGIN{
 }'
 ```
 
-Keep in mind that it is possible to use both ';' and ':' as Control Sequence
+Keep in mind that it is possible to use both `;` and `:` as Control Sequence
 delimiters but this behavior is only supported by xterm and konsole (according
 to Wikipedia[1]).
 
@@ -57,20 +57,20 @@ to Wikipedia[1]).
 
 Since
 [ncurses-6.0-20180121](http://lists.gnu.org/archive/html/bug-ncurses/2018-01/msg00045.html),
-terminfo began to support the 24-bit True Color capability under the name of
-"RGB". You need to use the "setaf" and "setab" commands to set the foreground
+terminfo has supported the 24-bit True Color capability under the name of
+`RGB`. You need to use the `setaf` and `setab` commands to set the foreground
 and background respectively.
 
 # True Color Detection
 
-There will be no reliable way to detect the "RGB" flag until the new release of
+There will be no reliable way to detect the `RGB` flag until the new release of
 terminfo/ncurses. S-Lang author added a check for `$COLORTERM` containing either
-"truecolor" or "24bit" (case sensitive). In addition,
+`truecolor` or `24bit` (case sensitive). In addition,
 [VTE](https://bugzilla.gnome.org/show_bug.cgi?id=754521),
 [Konsole](https://bugs.kde.org/show_bug.cgi?id=371919) and
 [iTerm2](https://gitlab.com/gnachman/iterm2/issues/5294) set this variable to
-"truecolor". It has been in VTE for a while and but is relatively new, being
-still git-only in Konsole and iTerm2).
+`truecolor`. It has been in VTE for a while, but is relatively new in Konsole
+and iTerm2 (being still git-only).
 
 This is obviously not a reliable method, and is not forwarded via sudo, SSH etc.
 However, whenever it errs, it errs on the safe side. It does not advertise
@@ -91,7 +91,7 @@ color it currently has. If the response replies the same color that was set
 then it indicates truecolor is supported.
 
 ```bash
-$ (echo -e '\e[48:2:1:2:3m\eP$qm\e\\' ; xxd)
+$ printf '\e[48:2:1:2:3m\eP$qm\e\\' ; xxd
 
 ^[P1$r48:2:1:2:3m^[\
 00000000: 1b50 3124 7234 383a 323a 313a 323a 336d  .P1$r48:2:1:2:3m
@@ -258,7 +258,7 @@ much more complex)
 - [tmux](http://tmux.github.io/) - starting from version 2.2 (support since
   [427b820...](https://github.com/tmux/tmux/commit/427b8204268af5548d09b830e101c59daa095df9))
 - [screen](http://git.savannah.gnu.org/cgit/screen.git/) - has support in
-  'master' branch, need to be enabled (see 'truecolor' option)
+  `master` branch, need to be enabled (see `truecolor` option)
 - [pymux](https://github.com/jonathanslenders/pymux) - tmux clone in pure Python
   (to enable truecolor run pymux with `--truecolor` option)
 - [dvtm](https://github.com/martanne/dvtm) - not yet supporting True Color
