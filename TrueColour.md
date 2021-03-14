@@ -64,7 +64,7 @@ and background respectively.
 # True Color Detection
 
 There will be no reliable way to detect the `RGB` flag until the new release of
-terminfo/ncurses. S-Lang author added a check for `$COLORTERM` containing either
+terminfo/ncurses. The S-Lang library checks for `$COLORTERM` containing either
 `truecolor` or `24bit` (case sensitive). In addition,
 [VTE](https://bugzilla.gnome.org/show_bug.cgi?id=754521),
 [Konsole](https://bugs.kde.org/show_bug.cgi?id=371919) and
