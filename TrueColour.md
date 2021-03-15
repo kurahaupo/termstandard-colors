@@ -51,9 +51,7 @@ awk 'BEGIN{
 
 Keep in mind that it is possible to use both `;` and `:` as Control Sequence
 delimiters but this behavior is only supported by xterm and konsole (according
-to Wikipedia[1]).
-
-[1] https://en.wikipedia.org/wiki/ANSI_color
+to [Wikipedia](https://en.wikipedia.org/wiki/ANSI_color)).
 
 Since
 [ncurses-6.0-20180121](http://lists.gnu.org/archive/html/bug-ncurses/2018-01/msg00045.html),
