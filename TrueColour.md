@@ -50,9 +50,8 @@ awk 'BEGIN{
 ```
 
 Keep in mind that it is possible to use both ';' and ':' as Control Sequence
-delimiters.
-
-According to Wikipedia[1], this behavior is only supported by xterm and konsole.
+delimiters but this behavior is only supported by xterm and konsole (according
+to Wikipedia[1]).
 
 [1] https://en.wikipedia.org/wiki/ANSI_color
 
