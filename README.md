@@ -225,7 +225,7 @@ truecolor either.
 - [Termux](https://termux.com/) [delimiter: semicolon] - **Android platform**
 - [Therm](https://github.com/trufae/Therm) [delimiter: colon, semicolon] - fork of iTerm2
 - [upterm](https://github.com/railsware/upterm) *Windows/MacOS/Linux Electron* - A terminal emulator for the 21st century.
-- [Warp](https://github.com/warpdotdev/Warp) - **MacOS X platform** written in Rust
+- [Warp](https://github.com/warpdotdev/Warp) - **Windows/MacOS/Linux** written in Rust
 - [wezterm](https://wezfurlong.org/wezterm/) [delimiter: colon, semicolon] - written in Rust
 - Windows 10 bash console, since [Windows Insiders build 14931](https://blogs.msdn.microsoft.com/commandline/2016/09/22/24-bit-color-in-the-windows-console/)
 - [Windows Powershell](https://en.wikipedia.org/wiki/PowerShell#PowerShell_5.1) [delimiter: semicolon] - aka PowerShell 5.x and below **Windows 10**
@@ -248,6 +248,7 @@ truecolor either.
   - **libvte**-based [Tilix](https://github.com/gnunn1/tilix) - written in D. Similar user interface as for Terminator.
   - **libvte**-based [tinyterm](https://code.google.com/p/tinyterm)
   - **libvte**-based [xfce4-terminal](https://docs.xfce.org/apps/terminal/start) - since [0.6.90](https://github.com/xfce-mirror/xfce4-terminal/releases/tag/xfce4-terminal-0.6.90) release, if compiled with GTK+3
+- [Terminal.app](https://en.wikipedia.org/wiki/Terminal_(macOS)) **MacOS platform** - since MacOS 26
 - All [xterm.js](https://github.com/xtermjs/xterm.js) based terminals (since [v3.13](https://github.com/xtermjs/xterm.js/issues/484), [v4.3 for webgl](https://github.com/xtermjs/xterm.js/pull/2552)) [delimiter: semicolon]
   - [Hyper.app](https://hyper.is/): crossplatform, HTML/CSS/JS-based (Electron)
   - [Tabby](https://github.com/Eugeny/tabby): highly configurable terminal emulator for Windows, macOS and Linux
@@ -305,7 +306,6 @@ complex and may perform very slowly if used blindly [2].
 - [mrxvt](https://sourceforge.net/projects/materm) (looks abandoned) - https://sourceforge.net/p/materm/feature-requests/41/
 - [MTPuTTY](https://ttyplus.com/) - **Windows platform**
 - [SmarTTY](https://sysprogs.com/SmarTTY/) - **Windows platform** - closed source (sent them a request)
-- [Terminal.app](https://en.wikipedia.org/wiki/Terminal_(macOS)): MacOS Terminal built-in
 - [Terminology](https://www.enlightenment.org/about-terminology) (Enlightenment) - https://phab.enlightenment.org/T746
 - [Terminus](https://github.com/Eugeny/terminus): highly configurable terminal emulator for Windows, MacOS and Linux
 - [Termius](https://www.termius.com/) - **Linux, Windows, OS X platforms**, closed source
